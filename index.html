@@ -1,9 +1,15 @@
 <html>
   <head>
     <link rel="stylesheet" href="index.css">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> 
+    <!-- the above pull in react-dom library - provides global access -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   </head>
   <body>
-    <h1>Hello, React!</h1>
-    <script src="index.js"></script>
+    <!-- <h1>Hello there</h1> -->
+    <div id="root"></div>
+    <!-- the above is the root of the entire app / container of the entire app -->
+    <script src="index.js" type="text/babel"></script>
   </body>
 </html>
